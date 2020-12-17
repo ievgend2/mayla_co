@@ -1,0 +1,70 @@
+.main-navigation {
+    position: absolute;
+    z-index:99999;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:3.5rem;
+    background:#fafafa;
+    padding: 0 1rem;
+    display:flex;
+    justify-content: flex-end;
+    /* opacity: 80%; */
+  
+
+}
+
+/* .main-navbar a {
+    color: red;
+} */
+
+.main-navigation_item{
+margin-left:1.5rem;
+display:flex;
+
+/* color volvo: #284e80 */
+
+}
+.main-navigation_item ul{
+display:flex;
+align-items: center;
+padding:0;
+list-style:none;
+margin:0;
+}
+
+.main-navigation_item li{
+    margin: 0 0.4rem;
+    /* padding-top: 0.75rem; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.main-navigation_item a{
+    text-decoration: none;
+    color:black ;
+}
+.main-navigation_item a:hover,
+.main-navigation_item a:active{
+    color:#1c6bba ;
+    text-decoration: none;
+}
+
+.sign_out_b{
+background-color:transparent;
+border-width:0;
+cursor:default;
+text-decoration: none;
+padding: 4px 24px;
+}
+
+/* .dropdown-menu{
+    position: absolute;
+    z-index:99999;
+
+} */
+
+a#baic-nav-dropdown,.dropdown-toggle.nav-link{
+    padding:0;
+}
+
+

@@ -1,0 +1,14 @@
+export const LANDING = '/';
+export const SIGN_UP = '/signup';
+export const SIGN_IN = '/signin';
+export const HOME = '/home';
+export const ACCOUNT = '/account';
+export const ADMIN = '/admin';
+export const PASSWORD_FORGET = '/pw-forget';
+export const CONTACTUS = '/contactus';
+export const CART = '/cart';
+export const SUBPAGE = '/submittedPage';
+export const MESSAGES = '/Messages';
+export const EDIT_INFO = '/Edit-info';
+export const CHECKOUT = '/Checkout';
+export const PRODUCT_DETAILS = '/products/:id';
